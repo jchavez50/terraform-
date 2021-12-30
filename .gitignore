@@ -1,6 +1,5 @@
 drone-ci-gcp/terraform/*.tfstate
-**/**/*.tfstate.*
-drone-ci-gcp/terraform/.terraform*
+drone-ci-gcp/terraform/*.tfstate.*
+drone-ci-gcp/terraform/.terraform
 **/**/*.terraform.lock.hcl
-**/**/.terraform/*
 .DS_Store
