@@ -1,4 +1,4 @@
-**/**/*.tfstate
+drone-ci-gcp/terraform/*.tfstate
 **/**/*.tfstate.*
 **/**/.terraform*
 **/**/*.terraform.lock.hcl
