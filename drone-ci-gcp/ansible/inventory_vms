@@ -1,0 +1,1 @@
+droneci ansible_host=[34.83.240.33]ansible_ssh_private_key_file=[~/.ssh/ansible-key]
