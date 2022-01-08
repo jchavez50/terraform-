@@ -1,5 +1,17 @@
-drone-ci-gcp/terraform/*.tfstate
-drone-ci-gcp/terraform/*.tfstate.*
-drone-ci-gcp/terraform/.terraform
-drone-ci-gcp/terraform/*.terraform.lock.hcl
+# Compiled files
+*.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock.info
+*.tfvars
+
+# Ignore Mac .DS_Store files
 .DS_Store
+
+# Ignore Terraform files 
+*gitignore*.tf
+
+# Directories 
+.vm-instance/
+.scripts/
+
